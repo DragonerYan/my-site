@@ -11,6 +11,11 @@ import org.springframework.cache.annotation.EnableCaching;
 public class MySiteApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MySiteApplication.class, args);
+		try{
+			SpringApplication.run(MySiteApplication.class, args);
+		}catch (Exception e){
+			e.printStackTrace();
+		}
+
 	}
 }

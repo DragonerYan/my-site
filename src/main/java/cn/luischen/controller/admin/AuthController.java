@@ -68,6 +68,7 @@ public class AuthController extends BaseController{
     ){
 
         String ip= IPKit.getIpAddrByRequest(request); // 获取ip并过滤登录时缓存的bug
+        System.out.println(cache);
         Integer error_count = cache.hget("login_error_count",ip);
         try {
             UserDomain userInfo = userService.login(username, password);
