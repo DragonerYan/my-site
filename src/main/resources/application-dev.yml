@@ -69,8 +69,8 @@ swagger:
   show: true
 
 qiniu:
-  accesskey: ""
-  serectkey: ""
-  bucket: ""
+  accesskey: "f58sXbXm4XZoAbZLD5hsCt2wU079ByRDtFOuNTQF"
+  serectkey: "snopMAqivOMh6E06JBl8GvaBQ0SilSd5xoR8K97j"
+  bucket: "yanxinzhao-pic-cloud"
   cdn:
-    url: ""
+    url: "http://rtodrh67j.hn-bkt.clouddn.com/"
